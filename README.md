@@ -83,7 +83,7 @@ print("Halo saya " + nama + " dan saya berusia " + usia + " tahun")
 - Integer (int) -> bilangan bulat
 - Float -> Bilangan desimal
 - String -> teks
-  -> Boolean (bool) -> true / false
+- Boolean (bool) -> true / false
 - Python bisa handle tipe data yang sangat besar
 - Untuk memeriksa tipe data bisa gunakan function `type()`
 
@@ -96,24 +96,6 @@ isAdmin = True #boolean
 
 print(type(umur)) # <class 'int'>
 print(type(tinggi)) # <class 'float'>
-```
-
-### Tipe Data String
-
-untuk membuat string, bisa dilakukan dengan tiga cara;
-
-- gunakan petik satu 'teks'
-- gunakan petik dua "teks"
-- gunakan petik tiga untuk multiple line """teks"""
-
-```bash
-nama = 'Budi'
-kota = "Jakarta"
-alamat = """
-Jl Raya Cililitan No 50
-Rt 001 Rw 002
-Jakarta Timur
-"""
 ```
 
 ## Konversi Type Data
@@ -133,3 +115,49 @@ umur = int(usia)
 print(type(usia)) # output -> <class 'str'>
 print(type(umur)) # output -> <class 'int
 ```
+
+## Manipulasi String
+
+String adalah tipe data untuk menyimpan teks atau kumpulan karakter. String ditulis dengan menggunakan tanda kutip diawal dan diakhir:
+
+- gunakan petik satu 'teks'
+- gunakan petik dua "teks"
+- gunakan petik tiga untuk multiple line """teks"""
+
+```bash
+nama = 'Budi' # contoh dengan petik satu
+kota = "Jakarta" # contoh dengan petik dua
+alamat = """
+Jl Raya Cililitan No 50
+Rt 001 Rw 002
+Jakarta Timur
+""" # contoh dengan petik tiga
+```
+
+### Menggabungkan String
+
+- untuk menggabungkan string bisa dilakukan dengan menngunakan tanda +
+- Tipe data string tidak bisa digabungkan dengan tipe data yang lain seperti integer, float dll
+- Jika ingin digabungkan bisa dilakukan dengan dua cara :
+  1.  Mengkonversi ketipe data string dengan function `str()`
+  2.  Menggunakan `f-string` dan membungkus variabelnya didalam `{}`
+- f-string (formatted string literal) secara otomatis merubah nilai yang ada didalam `{}` menjadi string. Untuk itu tidak perlu menggunakan `str()` lagi untuk merubah variabel yagn bukan string menjadi string
+
+```bash
+#contoh
+nama = "Joe"
+umur = 25
+
+pesan = "Halo saya " + nama + " dan saya berusia " + str(umur) + " tahun" #variabel umur dikonversi ke str
+msg = f"Halo saya {nama} dan saya berusia {umur} tahun" # menggunakan f-string
+
+print(pesan)
+print(msg)
+
+#output keduanya -> Halo saya Joe dan saya berusia 25 tahun
+```
+
+### Menghitung Panjang String
+
+- Gunakan function `len()` untuk menghitung panjang string / total karakter. Karakter disini termasuk spasi, jadi spasi juga akan dihitung sebagai karakter dalam string.
+- Fungsi `len()` mengambalikan nilai dengan tipe data integer
