@@ -161,3 +161,22 @@ print(msg)
 
 - Gunakan function `len()` untuk menghitung panjang string / total karakter. Karakter disini termasuk spasi, jadi spasi juga akan dihitung sebagai karakter dalam string.
 - Fungsi `len()` mengambalikan nilai dengan tipe data integer
+
+### Mengakses karakter yang ada didalam string (Indexing)
+
+- Setiap karakter dalam string memiliki posisi (index) yang dimulai dari angka 0
+- Untuk mengakses data tersebut bisa menggunakan kurung siku[] dan masukan nomor indexnya.
+- Untuk mengakses index bisa juga menggunakan index dengan angka negatif (-), jika menggunakan negatif, maka dihitung dari belakang
+
+```bash
+# Contoh
+lang = "Python"
+
+print(lang[0]) # P
+print(lang[1]) # y
+print(lang[2]) # t
+
+print(lang[-3]) # h
+print(lang[-2]) # o
+print(lang[-1]) # n
+```
