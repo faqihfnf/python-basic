@@ -180,3 +180,28 @@ print(lang[-3]) # h
 print(lang[-2]) # o
 print(lang[-1]) # n
 ```
+
+### String Slicing
+
+String slicing digunakan untuk mengambil sebagian karakter dari string. Yang membedakan dengan indexing, indexing hanya menagmbil satu karakter sementara slicing mengambil lebih dari satu karakter
+
+- Sama dengan indexing, sliceing juga menggunakan kurung siku [] untuk mengakses karakter didalam string
+- Yang membedakan adalah untuk slicing terdapat dua posisi index yang dipisahkan oleh titik dua (:).
+- Angka sebelum titik dua menunjukan index awal, dan setelah titik dua menunjukan index akhir
+- Contoh [1,4] berarti kita akan ambil karakter dari index 1 sampai dengan index 3 (index 1,2,3)
+- Jika index pertama tidak disebutkan, secara default akan mengambil index pertama (0)
+- Sementara jika index keduanya tidak diisi, maka secara default akan mengambil index terakhir
+- Dan jika tidak menyebutkan index sama sekali, hanya titik dua saja, maka akan diambil semua karakter dalam stringnya.
+
+```bash
+#contoh
+
+nation = "Indonesia"
+
+print(nation[0:3]) # Ind (index 0,1,2)
+print(nation[3:6]) # one (index 3,4,5)
+
+print(nation[:3]) # Ind (index awal  sampai 2)
+print(nation[3:]) # onesia (index 3 sampai akhir)
+print(nation[:]) # Indonesia (index awal sampai akhir)
+```

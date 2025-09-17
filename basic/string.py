@@ -17,3 +17,12 @@ print(lang[2])
 print(lang[-3])
 print(lang[-2])
 print(lang[-1])
+
+nation = "Indonesia"
+
+print(nation[0:3]) # Ind (index 0,1,2)
+print(nation[3:6]) # one (index 3,4,5)
+
+print(nation[:3]) # Ind (index awal  sampai 2)
+print(nation[3:]) # onesia (index 3 sampai akhir)
+print(nation[:]) # Indonesia (index awal sampai akhir)
