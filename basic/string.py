@@ -7,6 +7,12 @@ msg = f"Halo saya {nama} dan saya berusia {umur} tahun"
 print(pesan)
 print(msg)
 
+harga = 20000
+jumlah = 5
+
+total = f"Total harga adalah {harga * jumlah}"
+print(total)
+
 print(len(nama))
 
 lang = "Python"

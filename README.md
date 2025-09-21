@@ -140,8 +140,9 @@ Jakarta Timur
 - Tipe data string tidak bisa digabungkan dengan tipe data yang lain seperti integer, float dll
 - Jika ingin digabungkan bisa dilakukan dengan dua cara :
   1.  Mengkonversi ketipe data string dengan function `str()`
-  2.  Menggunakan `f-string` dan membungkus variabelnya didalam `{}`
-- f-string (formatted string literal) secara otomatis merubah nilai yang ada didalam `{}` menjadi string. Untuk itu tidak perlu menggunakan `str()` lagi untuk merubah variabel yagn bukan string menjadi string
+  2.  Menggunakan `f-string` dan membungkus variabelnya didalam `{}`. ini disebut juga dengan <b>String Interpolation</b>
+- f-string (formatted string literal) secara otomatis merubah nilai yang ada didalam `{}` menjadi string. Untuk itu tidak perlu menggunakan `str()` lagi untuk merubah variabel yang bukan string menjadi string
+- f-string dapat mengeksekusi ekspresi langsung didalamnya
 
 ```bash
 #contoh
@@ -155,6 +156,13 @@ print(pesan)
 print(msg)
 
 #output keduanya -> Halo saya Joe dan saya berusia 25 tahun
+
+#contoh ekspresi harga * jumlah bisa dieksekusi langsung didalam f-string
+harga = 20000
+jumlah = 5
+
+total = f"Total harga adalah {harga * jumlah}"
+print(total) # Total harga adalah 100000
 ```
 
 ### Menghitung Panjang String
