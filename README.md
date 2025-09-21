@@ -233,3 +233,25 @@ print(name.count("o")) # 2
 print(name.find("o")) # 1
 
 ```
+
+### Escape Characters
+
+Excape Characters merupakan karakter-karakter khusus dalam string yang untuk menggunakannya harus mengikuti aturan khusus dari python.
+
+- `\n` : New Line
+- `\t` : Tab
+- `\` : Backslash
+
+```bash
+#contoh
+data = "Name: Joe \nAge: 25\nCountry: Indonesia"
+path = "C:\\Users\\Documents\\main.py"
+words = "I\'m learning python \t now"
+
+print(data)
+#Name: Joe
+#Age: 25
+#Country: Indonesia
+print(path) # C:\Users\Documents\main.py
+print(words) # I'm learning python      now
+```

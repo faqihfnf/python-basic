@@ -37,3 +37,11 @@ print(name.strip())
 print(name.replace("John", "Budi"))
 print(name.count("o"))
 print(name.find("o"))
+
+data = "Name: Joe \nAge: 25\nCountry: Indonesia"
+path = "C:\\Users\\Documents\\main.py"
+words = "I\'m learning python \t now"
+
+print(data)
+print(path)
+print(words)
