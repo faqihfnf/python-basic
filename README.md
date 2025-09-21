@@ -205,3 +205,31 @@ print(nation[:3]) # Ind (index awal  sampai 2)
 print(nation[3:]) # onesia (index 3 sampai akhir)
 print(nation[:]) # Indonesia (index awal sampai akhir)
 ```
+
+### String Method
+
+Tipe data string memiliki method (fungsi) bawaan dari python yang bisa digunakan untuk melakukan manipulasi pada string.
+
+- `upper()` : mengubah semua karkter string menjadi huruf besar.
+- `lower()` : mengubah semua karkter string menjadi huruf kecil.
+- `title()` : mengubah setiap awal karakter pada kata menjadi huruf besar.
+- `capitalize()` : mengubah hanya awal karakter pada kata menjadi huruf besar.
+- `strip()` : menghilangkan karakter kosong (whitespace).
+- `replace(sebelum,sesudah)` : mengganti bagian tertentu dari string.
+- `count()` : menghitung berapa kali sebuah text muncul.
+- `find()` : mencari posisi (index) keberapa text muncul.
+
+```bash
+#contoh
+name = "John doe"
+
+print(name.upper()) # JOHN DOE
+print(name.lower()) # john doe
+print(name.title()) # John Doe
+print(name.capitalize()) # John doe
+print(name.strip()) # John doe
+print(name.replace("John", "Budi")) # Budi doe
+print(name.count("o")) # 2
+print(name.find("o")) # 1
+
+```
