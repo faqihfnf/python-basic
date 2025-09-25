@@ -263,3 +263,35 @@ print(data)
 print(path) # C:\Users\Documents\main.py
 print(words) # I'm learning python      now
 ```
+
+## Operator
+
+### Apa itu operator ?
+
+Operator adalah simbol yang digunakan untuk melakukan operasi pada variabel atau value. Dan didalam python ada beberapa jenis operator yang bisa digunakan untuk melakukan operasi.
+
+### Operator Aritmatika
+
+Operator aritmatika digunakan untuk melakukan operasi matematika pada variabel atau value. Diantaranya:
+
+- `+` : Penjumlahan
+- `-` : Pengurangan
+- `*` : Perkalian
+- `/` : Pembagian
+- `%` : Modulus
+- `**` : Pangkat
+- `//` : Floor Division ( pembagian dengan pembulatan kebawah)
+
+```bash
+#contoh
+a = 10
+b = 3
+
+print(a + b) # 13
+print(a - b) # 7
+print(a * b) # 30
+print(a / b) # 3.3333333333333335
+print(a % b) # 1
+print(a ** b) # 1000
+print(a // b) # 3
+```
