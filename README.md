@@ -295,3 +295,44 @@ print(a % b) # 1
 print(a ** b) # 1000
 print(a // b) # 3
 ```
+
+### Operator Penugasan (Assignment)
+
+Operator assignment digunakan untuk memberikan nilai pada sebuah variabel. Operarot assignment sendiri ada dua jenis;
+
+1. Assignment
+2. Compound Assignment, yaitu operator yang menggabungkan antara operasi artimatika dengan operator penugasan
+
+Contoh operator assignment:
+
+- `=` : Penugasan
+
+Contoh operator compound assignment:
+
+- `+=` : Penjumlahan dan penugasan
+- `-=` : Pengurangan dan penugasan
+- `*=` : Perkalian dan penugasan
+- `/=` : Pembagian dan penugasan
+- `%=` : Modulus dan penugasan
+- `**=` : Pangkat dan penugasan
+- `//=` : Floor Division ( pembagian dengan pembulatan kebawah) dan penugasan
+
+```bash
+#contoh
+c = 5
+
+c += 2 # c = c + 2 = 7
+print(c)
+c -= 3 # c = c - 3 = 4
+print(c)
+c *= 2 # c = c * 2 = 8
+print(c)
+c /= 2 # c = c / 2 = 4
+print(c)
+c %= 2 # c = c % 2 = 0
+print(c)
+c **= 2 # c = c ** 2 = 0
+print(c)
+c //= 2 # c = c // 2 = 0
+print(c)
+```
