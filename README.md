@@ -336,3 +336,35 @@ print(c)
 c //= 2 # c = c // 2 = 0
 print(c)
 ```
+
+### Operator Perbandingan
+
+Operator perbandingan digunakan untuk membandingkan dua nilai. Dan output dari perbandingan tersebut adalah boolean (True/False).
+
+- `==` : Sama dengan
+- `!=` : Tidak sama dengan
+- `<` : Kurang dari
+- `>` : Lebih dari
+- `<=` : Kurang dari sama dengan
+- `>=` : Lebih dari sama dengan
+
+```bash
+#contoh
+d = 10
+e = 3
+
+print(d == b) # False
+print(d != b) # True
+print(d < b) # False
+print(d > b) # True
+print(d <= b) # False
+print(d >= b) # True
+
+nama_satu = "Joe"
+nama_dua = "John"
+
+print(nama_satu == nama_dua) # False
+print(nama_satu != nama_dua) # True
+```
+
+Operator perbandingan tidak hanya bisa digunakan untuk tipe data integer saja tapi juga bisa digunakan untuk tipe data lain seperti string, float, dll. Hanya saja, khusus untuk string hanya bisa menggunakan operator perbandingan `==` dan `!=`.

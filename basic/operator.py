@@ -27,3 +27,21 @@ c **= 2 # c = c ** 2 = 0
 print(c)
 c //= 2 # c = c // 2 = 0
 print(c)
+
+print("===============================")
+
+d = 10
+e = 3
+
+print(d == b) # False
+print(d != b) # True
+print(d < b) # False
+print(d > b) # True
+print(d <= b) # False
+print(d >= b) # True
+
+nama_satu = "Joe"
+nama_dua = "John"
+
+print(nama_satu == nama_dua) # False
+print(nama_satu != nama_dua) # True
