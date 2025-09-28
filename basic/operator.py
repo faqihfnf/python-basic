@@ -53,3 +53,22 @@ age = 25
 print(age > 25 and age < 30) # False
 print(age > 25 or age < 30) # True
 print(not age > 20) # False
+
+print("===============================")
+
+nama_depan = "John"
+nama_belakang = "Doe"
+
+print(nama_depan + " " + nama_belakang)
+
+garis = "-"
+
+print(garis * 10)
+
+kata = "Python adalah bahasa pemrograman yang populer"
+
+print("Python" in kata) # True
+print("python" in kata) # False
+print("Javascript" in kata) # False
+print("python" not in kata) # True
+print("Python" not in kata) # False

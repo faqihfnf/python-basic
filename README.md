@@ -385,3 +385,33 @@ print(age > 25 and age < 30) # False
 print(age > 25 or age < 30) # True
 print(not age > 20) # False
 ```
+
+### Operator String
+
+Operator string khusus digunakan untuk melakukan operasi pada string. Diantaranya:
+
+- `+` : Penambahan (Concatenation) untuk menambah atau menggabungkan string dengan string lainnya
+- `*` : Pengulangan untuk mengulang string sebanyak jumlah yang ditentukan
+- `in` : Memeriksa apakah sebuah string terdapat dalam string lain. Value hasilnya adalah boolean
+- `not in` : Memeriksa apakah sebuah string tidak terdapat dalam string lain. Value hasilnya adalah boolean
+- `in` dan `not in` memeriksa secara case sensitive
+
+```bash
+#contoh
+nama_depan = "John"
+nama_belakang = "Doe"
+
+print(nama_depan + " " + nama_belakang)
+
+garis = "-"
+
+print(garis * 10)
+
+kata = "Python adalah bahasa pemrograman yang populer"
+
+print("Python" in kata) # True
+print("python" in kata) # False
+print("Javascript" in kata) # False
+print("python" not in kata) # True
+print("Python" not in kata) # False
+```
