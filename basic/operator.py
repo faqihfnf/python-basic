@@ -45,3 +45,11 @@ nama_dua = "John"
 
 print(nama_satu == nama_dua) # False
 print(nama_satu != nama_dua) # True
+
+print("===============================")
+
+age = 25
+
+print(age > 25 and age < 30) # False
+print(age > 25 or age < 30) # True
+print(not age > 20) # False

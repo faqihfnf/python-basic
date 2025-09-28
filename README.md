@@ -368,3 +368,20 @@ print(nama_satu != nama_dua) # True
 ```
 
 Operator perbandingan tidak hanya bisa digunakan untuk tipe data integer saja tapi juga bisa digunakan untuk tipe data lain seperti string, float, dll. Hanya saja, khusus untuk string hanya bisa menggunakan operator perbandingan `==` dan `!=`.
+
+### Operator Logika
+
+Operator logika digunakan utuk menggabungkan atau memodifikasi nilai boolean. Diantaranya:
+
+- `and` : menghasilkan output true jika kedua operand bernilai true
+- `or` : menghasilkan nilai true jika salah satu operand bernilai true
+- `not` : menghasilkan nilai true jika operand bernilai false
+
+```bash
+#contoh
+age = 25
+
+print(age > 25 and age < 30) # False
+print(age > 25 or age < 30) # True
+print(not age > 20) # False
+```
