@@ -415,3 +415,16 @@ print("Javascript" in kata) # False
 print("python" not in kata) # True
 print("Python" not in kata) # False
 ```
+
+### Prioritas Operator
+
+Operator memiliki urutan prioritas (precedence) untuk dijalankan. Operator dengan prioritas tertinggi akan dijalankan terlebih dahulu.
+Urutan prioritas operator (dari tinggi ke rendah):
+
+- `**` : Pangkat
+- `*`, `/`, `//` , `%` : Perkalian, Pembagian, Floor Division, Modulus
+- `+`, `-` : Penjumlahan, Pengurangan
+- `==`, `!=`, `<`, `>`, `<=`, `>=` : Perbandingan
+- `not` : Logika
+- `and` : Logika
+- `or` : Logika
